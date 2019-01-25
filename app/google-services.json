@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "424639339416",
+    "firebase_url": "https://fitgo-6a750.firebaseio.com",
+    "project_id": "fitgo-6a750",
+    "storage_bucket": "fitgo-6a750.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:424639339416:android:e73d4342a78ea943",
+        "android_client_info": {
+          "package_name": "com.example.daniel.fitgo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "424639339416-404f1ukt5j22msrg08p0pkctfkpm4582.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.daniel.fitgo",
+            "certificate_hash": "10ffdbd4fd3b706ed895a003278d022e4f4ab88b"
+          }
+        },
+        {
+          "client_id": "424639339416-flga19ueah0dhh7392p6rb9mkm6qr7hf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAkYEK-6WdpbHgGWiFM_LuNuIzQAQvzGfE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "424639339416-flga19ueah0dhh7392p6rb9mkm6qr7hf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

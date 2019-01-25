@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<item
+    android:id="@+id/bottom_nav_rut"
+    android:enabled="true"
+    android:icon="@drawable/ic_rut"
+    android:title="@string/rutinas"
+    app:showAsAction="ifRoom"
+    />
+    <item
+        android:id="@+id/bottom_nav_add"
+        android:enabled="true"
+        android:icon="@drawable/ic_add"
+        android:title="@string/mis_rutinas"
+        app:showAsAction="ifRoom"
+        />
+
+</menu>
