@@ -1,8 +1,8 @@
 package com.example.daniel.fitgo
 
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import androidx.appcompat.app.AppCompatActivity
 import com.example.daniel.fitgo.activities.login.LoginActivity
 import com.google.firebase.auth.FirebaseAuth
 

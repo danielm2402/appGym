@@ -8,6 +8,7 @@ import androidx.viewpager.widget.ViewPager
 import androidx.appcompat.widget.Toolbar
 import android.view.MenuItem
 import com.example.daniel.fitgo.activities.login.LoginActivity
+import com.example.daniel.fitgo.activities.maps.MapsActivity
 import com.example.daniel.fitgo.adapters.PagerAdapter
 import com.example.daniel.fitgo.fragments.AgregarRutinas
 import com.example.daniel.fitgo.fragments.RutinaFragment
@@ -42,6 +43,10 @@ class MainActivity : ToolbarActivity() {
                     flags = Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TASK
                 }
 
+            }
+
+            R.id.googlemaps->{
+                goToActivity<MapsActivity>{}
             }
         }
         return super.onOptionsItemSelected(item)
