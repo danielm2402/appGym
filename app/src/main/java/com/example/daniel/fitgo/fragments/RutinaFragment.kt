@@ -50,18 +50,13 @@ class RutinaFragment : Fragment() {
         val rut= RutinaFitGo(curretUser.uid)
         suscribeToRutinas(rut)
 
+
         return _view
 
 
     }
 
-    private fun setUpAddBtn() {
 
-
-            SaveRutina()
-
-
-    }
 
     private fun setUpRecyclerView() {
         val layoutManager = LinearLayoutManager(context)
@@ -84,17 +79,19 @@ class RutinaFragment : Fragment() {
     {
         val newRutina = HashMap<String, Any>()
         newRutina["authorId"]= ""
-        newRutina["descripcion"]= "Rutina diseñada para cardio"
-        newRutina["tipo"]= "Cardio"
-        newRutina["nombre"]= "La mejor rutina de cardio al aire"
-        newRutina["entrenador"]= "lic.J Valencia"
-        newRutina["duracion"]= "2 horas"
+        newRutina["descripcion"]= "Rutina dieñada par atacar deltoides."
+        newRutina["tipo"]= "Hipertrofia"
+        newRutina["nombre"]= "Entrenamiento deltoides"
+        newRutina["entrenador"]= "Prof. J Valencia"
+        newRutina["duracion"]= "1 hora"
         newRutina["ejercicios"]= """
-            1. Trote al parque DURACIÓN 30 minutos.
-            2. Salto en cuerda(4 repeteciones de 1 minuto).
-            3. Flexiones explosivas (3 repeticiones de 15)
+            1. Press militar (10 reps - 4 series).
+            2. Press arnold (10 reps - 4 series).
+            3. Abdución con mancuernas (10 reps - 4 series).
+
+            Nota: Adecuar repeticiones y peso teniendo en cuenta su nivel de entrenamiento.
         """.trimIndent()
-        newRutina["urlimagen"]= "http://1.bp.blogspot.com/-jrYewD9Oce8/UUYXVaJKMrI/AAAAAAAAAdA/bknLFknFvRs/s1600/22.jpg"
+        newRutina["urlimagen"]= "https://cdn.hsnstore.com/blog/wp-content/uploads/2013/10/Imagen-destacada-Blog11-1.jpg"
         rutDBRef.add(newRutina).addOnCompleteListener{
             activity!!.toast("Rutina agregada")
         }
